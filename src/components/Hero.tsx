@@ -32,7 +32,7 @@ const Hero = () => {
                   <a href="#donate">Donate Now</a>
                 </Button>
                 <Button variant="ink" size="xl" asChild>
-                  <a href="#protocol">The Protocol →</a>
+                  <a href="#protocol">OVERVIEW</a>
                 </Button>
               </div>
             </motion.div>

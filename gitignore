@@ -1,3 +1,6 @@
+# any sensitive pdfs
+*.pdf
+/public/reports/
 # Logs
 logs
 *.log

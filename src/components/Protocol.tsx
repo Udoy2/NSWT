@@ -21,7 +21,7 @@ const Protocol = () => {
           viewport={{ once: true }}
           transition={{ duration: 0.8, ease: powerEase }}
         >
-          <span className="metric-label mb-4 block">Section 01 // The Protocol</span>
+          <span className="metric-label mb-4 block">Section 01 // OVERVIEW</span>
           <h2 className="text-[clamp(2rem,5vw,4rem)] leading-[0.95] tracking-tight font-serif text-foreground max-w-[20ch]">
             How the Trust <span className="text-primary">operates.</span>
           </h2>
@@ -58,21 +58,6 @@ const Protocol = () => {
           ))}
         </div>
 
-        {/* Mission & Vision */}
-        <div className="mt-16 grid grid-cols-1 md:grid-cols-2 gap-0 border-t border-border">
-          <div className="p-8 border-r border-b border-border">
-            <span className="metric-label">Mission</span>
-            <p className="mt-4 text-base leading-relaxed text-muted-foreground">
-              To uplift and empower underprivileged communities by providing access to education, healthcare, and opportunities for sustainable development — alleviating poverty and promoting humanitarian values.
-            </p>
-          </div>
-          <div className="p-8 border-b border-border">
-            <span className="metric-label">Vision</span>
-            <p className="mt-4 text-base leading-relaxed text-muted-foreground">
-              A just, healthy, and compassionate society where every individual — regardless of social or economic background — enjoys equal access to education, healthcare, and basic necessities.
-            </p>
-          </div>
-        </div>
       </div>
     </section>
   );
