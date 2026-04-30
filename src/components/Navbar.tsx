@@ -51,6 +51,8 @@ const Navbar = () => {
         {/* Desktop */}
         <div className="hidden md:flex items-center gap-8">
           {homeSections.map((s) => (
+
+          <div className="relative group">
             <a
               key={s.id}
               href={`/#${s.id}`}
@@ -59,6 +61,7 @@ const Navbar = () => {
             >
               {s.label}
             </a>
+          </div>
           ))}
 
           {/* Programs dropdown */}
